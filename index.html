@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+        <p>
+            <input id="username" type="text" placeholder="Логин" />
+            <input id="password" type="password" placeholder="Пароль"/>
+            <input id="getToken" type="button" value="Получить токен"/>        
+            <input id="token" type="text" placeholder="Токен авторизации" />
+        </p>
+
+        <p>
+            <input id="sendOneSms" type="button" value="Отправить сообщение" />
+            <input id="messageGuid" type="text" placeholder="Текст сообщения"/>
+            <input id="checkStatus" type="button" value="Проверить статус" />
+            <input id="smsStatus" type="text" placeholder="Результат проверки"/>
+        </p>
+        <p>
+            <input id="image" type="file" />
+            <input id="uploadImage" type="button" value="Загрузить изображение" />
+            <input id="imageId" type="text" placeholder="Данные загруженного изображения"/>
+        </p>
+        <p>
+            <input id="sendBulk" type="button" value="Отправить данные" />
+            <input id="groupId" type="text" placeholder="Проверить данные сообщения"/>
+            <input id="checkBulk" type="button" value="Проверить данные" />
+        </p>
+        <p>
+            <textarea id="bulkResult" style="width: 600px; height: 500px" placeholder="Результаты появятся после заполнения всех полей"></textarea>
+        </p>
+    </form>
+</body>
+</html>
